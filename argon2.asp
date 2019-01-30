@@ -51,12 +51,12 @@
 		Dim agron2 : set agron2 = server.CreateObject("ClassicASP.Argon2")
 		
 			argon2_hash = 	agron2.hash(_
-							password,_
-							a2_timeCost,_
-							a2_memoryCost,_
-							a2_lanes,_
-							a2_threads,_
-							a2_saltBytes)
+					password,_
+					a2_timeCost,_
+					a2_memoryCost,_
+					a2_lanes,_
+					a2_threads,_
+					a2_saltBytes)
 							
 			' or to use the default parameters:
 			' argon2_hash = agron2.hash(password)
@@ -69,7 +69,7 @@
 
 		Dim agron2 : set agron2 = server.CreateObject("ClassicASP.Argon2")
 			
-			argon2_verify = agron2.verify(password,a2_hash)
+			argon2_verify = agron2.verify(password,a2hash)
 			
 		set agron2 = nothing
 		
