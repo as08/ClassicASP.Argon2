@@ -69,7 +69,7 @@
 
 		Dim agron2 : set agron2 = server.CreateObject("ClassicASP.Argon2")
 			
-			argon2_verify = agron2.verify(password,a2hash)
+			argon2_verify = agron2.verify(password,a2Hash)
 			
 		set agron2 = nothing
 		
