@@ -77,9 +77,12 @@
 
 	Dim a2_hash, start, testPassword
 	
-	start = Timer()
 	testPassword = "myPassword"
-		
+	
+	response.write "<p><b>Password:</b> " & testPassword & "</p>"
+	
+	start = Timer()
+	
 	a2_hash = argon2_hash(testPassword)
 				
 	response.write "<p><b>Argon2 Hash:</b> " & a2_hash & "</p>"
