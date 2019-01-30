@@ -24,8 +24,8 @@ Run the following command: RegAsm ClassicASP.Argon2.dll /tlb /codebase
 
 	Argon2 Hash: $argon2i$v=19$m=2048,t=6,p=4$IuVF4gkfn3MfbyW1NR6W0w==$zLGJNxEy0VYjycLzL+lyvVbP9R0MK7k+Al7kRsAzBf4=
 
-	Time to execute: 0.3750s
+	Time to execute: 0.1406s
 
 	Argon2 Verified: True
 
-	Time to execute: 0.4375s
+	Time to execute: 0.1250s
