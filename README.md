@@ -1,3 +1,5 @@
+Argon2 hashing algorithm implemented in VBscript for Classic ASP
+
 ## INSTALLATION:
 Uses the Isopoh.Cryptography.Argon2 Fully Managed .Net Core Argon2 implementation by mheyman
 https://github.com/mheyman/Isopoh.Cryptography.Argon2
