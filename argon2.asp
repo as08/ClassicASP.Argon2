@@ -83,11 +83,11 @@
 	a2_hash = argon2_hash(testPassword)
 				
 	response.write "<p><b>Argon2 Hash:</b> " & a2_hash & "</p>"
-	response.write "<p><b>Time to execite:</b> " & formatNumber(Timer()-start,4) & "s</p>"
+	response.write "<p><b>Time to execute:</b> " & formatNumber(Timer()-start,4) & "s</p>"
 	
 	start = Timer()
 	
 	response.write "<p><b>Argon2 Verified:</b> " & argon2_verify(testPassword,a2_hash) & "</p>"
-	response.write "<p><b>Time to execite:</b> " & formatNumber(Timer()-start,4) & "s</p>"	
+	response.write "<p><b>Time to execute:</b> " & formatNumber(Timer()-start,4) & "s</p>"	
 
 %>
