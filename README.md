@@ -22,6 +22,25 @@ E.g: cd C:\Windows\Microsoft.NET\Framework64\v4.0.30319
 	
 Run the following command: RegAsm ClassicASP.Argon2.dll /tlb /codebase
 
+## Usage
+
+	Set Argon2 = Server.CreateObject("ClassicASP.Argon2")
+
+	' Generate a hash
+	Argon2.Hash("myPassword")
+	
+	' Custom parameters 
+	Argon2.Hash(_
+	"myPassword",_
+	timeCost,_
+	memoryCost,_
+	lanes,_
+	threads,_
+	saltBytes)
+
+	' Verify a hash
+	Argon2.Verify("myPassword","$argon2i$v=19$m=2048,t=6,p=4$IuVF4gkfn3MfbyW1NR6W0w==$zLGJNxEy0VYjycLzL+lyvVbP9R0MK7k+Al7kRsAzBf4=") ' True / False
+
 ## Example output from argon2.asp
 
 	Password: myPassword
