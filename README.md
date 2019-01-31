@@ -30,7 +30,7 @@ Run the following command: RegAsm ClassicASP.Argon2.dll /tlb /codebase
 	Argon2.Hash("myPassword")
 	
 	' Custom parameters 
-	Argon2.Hash("myPassword",int timeCost,int memoryCost,int lanes,int threads,int saltBytes)
+	Argon2.Hash("myPassword", int timeCost, int memoryCost, int lanes, int threads, int saltBytes)
 
 	' Verify a hash
 	Argon2.Verify("myPassword","$argon2i$v=19$m=2048,t=6,p=4$IuVF4gkfn3MfbyW1NR6W0w==$zLGJNxEy0VYjycLzL+lyvVbP9R0MK7k+Al7kRsAzBf4=") ' True / False
