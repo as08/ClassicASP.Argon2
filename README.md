@@ -26,7 +26,7 @@ Run the following command: RegAsm ClassicASP.Argon2.dll /tlb /codebase
 
 	Set Argon2 = Server.CreateObject("ClassicASP.Argon2")
 
-	' Generate a hash
+	' Generate a hash with default parameters (timeCost = 4, memoryCost = 2048, lanes = 4, threads = Environment.ProcessorCount, saltBytes = 16)
 	Argon2.Hash("myPassword")
 	
 	' Custom parameters 
