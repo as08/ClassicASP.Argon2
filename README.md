@@ -1,4 +1,4 @@
-This is a Component Object Model (COM) Dynamic-link library (DLL) coded in C# that can be set in Classic ASP using VBscripts "CreateObject" method and allows to compute Argon2i hashes within Classic ASP.
+This is a Component Object Model (COM) Dynamic-link library (DLL) coded in C# that can be set in Classic ASP using VBscripts "CreateObject" method and allows you to compute Argon2i hashes.
 
 ## INSTALLATION:
 Uses the Isopoh.Cryptography.Argon2 Fully Managed .Net Core Argon2 implementation by mheyman
