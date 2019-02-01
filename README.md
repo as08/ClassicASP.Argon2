@@ -4,6 +4,11 @@ Argon2 is a key derivation function that was selected as the winner of the Passw
 
 https://en.wikipedia.org/wiki/Argon2
 
+Also see:
+
+https://github.com/as08/ClassicASP.Bcrypt
+https://github.com/as08/ClassicASP.PBKDF2
+
 ## INSTALLATION:
 Uses the Isopoh.Cryptography.Argon2 Fully Managed .Net Core Argon2 implementation by mheyman
 https://github.com/mheyman/Isopoh.Cryptography.Argon2
