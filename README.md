@@ -1,5 +1,9 @@
 This is a Component Object Model (COM) Dynamic-link library (DLL) coded in C# that can be set in Classic ASP using VBscripts "CreateObject" method and allows you to compute Argon2i hashes.
 
+Argon2 is a key derivation function that was selected as the winner of the Password Hashing Competition in July 2015. It was designed by Alex Biryukov, Daniel Dinu, and Dmitry Khovratovich from the University of Luxembourg. Argon2i is optimized to resist side-channel attacks. It accesses the memory array in a password independent order.
+
+https://en.wikipedia.org/wiki/Argon2
+
 ## INSTALLATION:
 Uses the Isopoh.Cryptography.Argon2 Fully Managed .Net Core Argon2 implementation by mheyman
 https://github.com/mheyman/Isopoh.Cryptography.Argon2
